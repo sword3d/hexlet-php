@@ -1,1 +1,3 @@
-<?phpecho 'Hexlet one love.';
+<?php
+
+echo 'Hexlet one love.';
