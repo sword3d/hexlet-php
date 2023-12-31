@@ -1,0 +1,15 @@
+{
+    "name": "sword/hexlet-php",
+    "autoload": {
+        "psr-4": {
+            "Sword\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pavel B",
+            "email": "pavel.buynovskiy@gmail.com"
+        }
+    ],
+    "require": {}
+}
