@@ -1,9 +1,15 @@
 {
     "name": "sword/hexlet-php",
+    "scripts": {
+        "phpcs": "phpcs"
+    },
     "autoload": {
         "psr-4": {
             "Sword\\HexletPhp\\": "src/"
-        }
+        },
+        "files": [
+            "src/Runner.php"
+        ]
     },
     "authors": [
         {
@@ -11,5 +17,10 @@
             "email": "pavel.buynovskiy@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "tightenco/collect": "^9.52"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.2"
+    }
 }
